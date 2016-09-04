@@ -5,14 +5,16 @@ This is a simple python script which reads the file (Actor / actresses) from imd
 
 Output of this script will be written as .json file , which can be further used to bulk import to elasticsearch as below.
 
-data source
+Data Source
 -----------
 http://www.imdb.com/interfaces
 
 > Plain Text Data Files > actresses.list.gz > actresses.list > actresses.json
 
+    ex. : Download the actresses data as : wget ftp://ftp.funet.fi/pub/mirrors/ftp.imdb.com/pub/actresses.list.gz
+    unzip as : gunzip actresses.list.gz
 
-Run oythin script to create json file for import
+Run Python script to create json file for import
 --------------------
 
     python imdb_actor_import.py 
