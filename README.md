@@ -12,6 +12,12 @@ http://www.imdb.com/interfaces
 > Plain Text Data Files > actresses.list.gz > actresses.list > actresses.json
 
 
+Run oythin script to create json file for import
+--------------------
+
+    python imdb_actor_import.py 
+
+
 Import the json data via curl
 --------------------
 
